@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+header,footer{
+    height:100px;
+    width:100%;
+    border:1px solid black;
+    clear: both;
+}
+
+header,footer,section{
+    display:grid;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    text-align:center;
+    font-family:sans-serif;
+}
+
+
+.three{
+    width:33.33%;
+    height:200px;
+    border:1px solid black;
+    float:left;
+}
+
+.two{
+    width:50%;
+    height:200px;
+    border:1px solid black;
+    float:left;
+}
+
+

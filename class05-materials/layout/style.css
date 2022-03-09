@@ -1,0 +1,27 @@
+header{
+    height:100px;
+    width:100%;
+    background-color: aqua;
+}
+
+footer{
+    height:100px;
+    width:100%;
+    background-color: aqua;
+    clear:both;
+}
+
+section{
+    height:200px;
+    width:33.33%;
+    background-color: bisque;
+    float:left;
+}
+
+section + section{
+    background-color: blueviolet;
+}
+
+section + section +section{
+    background-color: aquamarine;
+}
