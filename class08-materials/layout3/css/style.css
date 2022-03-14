@@ -1,0 +1,158 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family:Helvetica;
+  font-size:100%;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  padding: 0 20px;
+}
+header{
+ 
+  height:100vh;
+  float:left;
+  width:15%;
+  padding: 10px 20px;
+}
+
+header nav ul{
+  list-style-type: none;
+  padding:0;
+}
+
+header nav ul li{
+  padding-top:10px;
+}
+
+header span{
+  padding-top: 10px;
+  font-weight: bold;
+}
+
+.orange-text{
+  color:orange;
+}
+
+header nav ul li a{
+  text-decoration:none;
+  color:#555;
+}
+
+.fixed{
+  position: fixed;
+}
+
+header span{
+  display:block;
+}
+
+.logo img{
+  width:50px;
+}
+
+.main{
+  width:60%;
+  float:left;
+  padding:20px 0;
+  margin-left: 20px;
+}
+
+.main img{
+  width:100%;
+}
+
+.main h1{
+  font-weight: 900;
+}
+
+.main p{
+  line-height: 1.6;
+  color:#555;
+}
+
+.main img{
+  display:inline-block;
+  margin-top:20px;
+}
+
+aside{
+  padding-top:50px;
+}
+
+aside section{
+  padding-top:20px;
+  margin-right:40px;
+}
+
+.author{
+  font-weight: bold;
+}
+
+aside{
+  width:25%;
+  float:right;
+}
+
+.bottom div,.bottom p, .bottom img{
+  float:left;
+}
+
+.top-main{
+  width:85%;
+  float:right;
+}
+
+.bottom{
+  overflow: hidden;
+}
+
+.bottom div{  
+  float:left;
+  width:30%;
+}
+
+.bottom p{
+  float:left;
+  width:30%;
+  padding-left:30px;
+}
+
+.bottom img{
+  float:right;
+  width:30%;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

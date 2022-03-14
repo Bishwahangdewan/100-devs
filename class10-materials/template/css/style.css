@@ -1,0 +1,140 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: Open Sans;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+.top-wrapper{
+  background-image: url("https://github.com/Bishwahangdewan/Storage/blob/master/100devs/pexels-photo-6296013.png?raw=true");
+  background-size:cover;
+  background-position: 80% 100%;
+  min-height:100vh;
+  padding:0 5%;
+}
+
+section{
+  overflow: hidden;
+}
+
+header > a{
+  display:inline-block;
+  text-align: right;
+  padding-top:20px;
+}
+
+header > a.logo{
+  text-align: center;
+  padding-top:10px;
+}
+
+header > a.logo img{
+  width:50px;
+}
+
+.btn > span{
+  text-decoration: none;
+  padding:5px 20px;
+  background-color: orange;
+  border-radius: 5px;
+  color:#fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+header nav, header > a{
+  float:left;
+  width:33.33%;
+  text-decoration: none;
+}
+
+header nav ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+
+header nav ul li a{
+  text-transform:uppercase;
+  font-weight: 600;
+  color:#fff;
+  float:left;
+  font-size:0.9rem;
+  text-decoration:none;
+  padding-right:10px;
+  display: inline-block;
+  padding-top: 20px;
+}
+
+main{
+  padding-top:200px;
+}
+
+main h1 , main p{
+  text-align: center;
+}
+
+main h1{
+  font-size: 4rem;
+  font-family: Oswald;
+  color:white;
+  margin:0;
+  text-shadow: 3px 3px 6px #222;
+}
+
+main p{
+  padding-top:20px;
+  width:70%;
+  margin:auto;
+  color: #fff;
+  line-height: 1.5;
+  text-shadow: 3px 3px 6px #555;
+}
+
+main div{
+  text-align: center;
+  margin-top:20px;
+}
+
+main div span{
+  color:white;
+  font-weight: 700;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/

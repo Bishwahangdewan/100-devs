@@ -1,0 +1,168 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+  font-family:Helvetica;
+  font-size: 100%;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header{
+  overflow: hidden;
+  padding: 5px 40px;
+  color:#1865f2;
+  border-bottom:2px solid #eee;
+}
+
+header > a{
+  text-decoration:none;
+  color:#1865f2;
+  padding-top:15px;
+  font-weight: 600;
+}
+
+header > a svg{
+  margin-top:6px;
+  margin-left:8px;
+}
+
+header form{
+  margin-left:5%;
+  margin-top:12px;
+}
+
+header form input{
+  background:lavenderblush;
+  border:0;
+  padding:5px 10px;
+  width:150px;
+}
+
+header form button{
+  padding:5px;
+  border:none;
+  color:rgb(157, 157, 157);
+}
+
+
+header form input::placeholder{
+  color:#1865f2;
+  font-weight: bold;
+}
+
+header a img{
+  width:40px;
+  margin-top:-8px;
+}
+
+header .logo{
+  margin-left:15%;
+}
+
+header .logo span{
+  font-size: 1.3rem;
+  color:#333;
+}
+
+header nav{
+  float:right;
+}
+
+header ul{
+  list-style-type: none;
+}
+
+header ul li{
+  margin-left:20px;
+}
+
+header ul li a{
+  text-decoration:none;
+  color:#1865f2;
+  font-weight: bold;
+}
+
+header * {
+  float:left;
+}
+
+
+section section{
+  width:50%;
+  float:left;
+}
+
+section.container{
+  padding:50px 30px;
+}
+
+section img{
+  width:85%;
+  margin-left:15%;
+}
+
+section h1{
+  font-family: Source Serif Pro;
+  font-size: 3.3rem;
+  width:100%;
+  color:#222;
+}
+
+section p{
+  width:80%;
+  line-height: 1.7;
+}
+
+section ul{
+  list-style-type: none;
+  overflow: hidden;
+  padding: 0;
+  margin-top:30px;
+}
+
+section ul li{
+  float:left;
+}
+
+section ul li a{
+  display:inline-block;
+  text-decoration:none;
+  color:white;
+  background-color: #1865f2;
+  font-weight: bold;
+  padding:10px 20px;
+  border-radius: 5px;
+  margin-right:10px;
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
